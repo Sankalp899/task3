@@ -20,7 +20,7 @@ app.get("/",(req,res)=>{
 
 
 app.use(cors({
-    origin:["http://localhost:5175","http://localhost:5174"],
+    origin:["https://task3-1frontend3.onrender.com","http://localhost:5174"],
     credentials:true
 }))
 
