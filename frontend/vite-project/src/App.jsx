@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 
 import Home from './pages/Home'
 import { Routes, Route , useLocation, Navigate} from 'react-router-dom'
-import Registration from './pages/registration'
+import Registration from './pages/Registration'
 import Login from './pages/login'
 import Nav from './components/Nav'
 import { userDataContext } from './context/userContext'
