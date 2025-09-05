@@ -16,7 +16,6 @@ import PlaceOrder from './pages/PlaceOrder'
 import Order from './pages/Order'
 import { ToastContainer, toast} from 'react-toastify'
 import Notfound from './pages/Notfound'
-import AI from './components/AI'
 
 
 function App() {
@@ -60,7 +59,6 @@ let location = useLocation()
     
     <Route path='*' element={<Notfound/>}/>
    </Routes>
-   <AI/>
    </>
   )
 }
