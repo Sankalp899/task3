@@ -138,8 +138,8 @@ function PlaceOrder() {
           <div className='py-[10px]'>
             <Title text1={'PAYMENT'} text2={'METHOD'} />
             <div className='w-[100%] h-[30vh] lg:h-[100px] flex items-center mt-[20px] lg:mt-[0px] justify-center gap-[50px]'>
-              <button onClick={()=>setMethod('razorpay')} className={`w-[150px] h-[50px] mb-[80px] rounded-sm items-center justify-center  bg-gradient-to-t from-[#95b3f8] to-white  ${method === 'razorpay' ? 'border-[5px] border-blue-900 rounded-sm' : ' ' }`}>{loading ?<Loading/> :  <img src={rozerpay} className='w-[100%] h-[100%] object-contain rounded-sm' alt=" " /> }</button>
-              <button onClick={()=>setMethod('COD')} className={`w-[200px] h-[50px] mb-[80px] bg-gradient-to-t from-[#95b3f8] to-[white] text-[14px] px-[20px] rounded-sm text-[#332f6f] font-bold ${method === 'COD'?'border-[5px] border-blue-900 rounded-sm':''} `}>{loading ? <Loading/> :"CASH ON DELIVERY"}</button>
+              <button onClick={()=>setMethod('razorpay')} className={`w-[150px] h-[50px] mb-[200px] rounded-sm items-center justify-center  bg-gradient-to-t from-[#95b3f8] to-white  ${method === 'razorpay' ? 'border-[5px] border-blue-900 rounded-sm' : ' ' }`}>{loading ?<Loading/> :  <img src={rozerpay} className='w-[100%] h-[100%] object-contain rounded-sm' alt=" " /> }</button>
+              <button onClick={()=>setMethod('COD')} className={`w-[200px] h-[50px] mb-[200px] bg-gradient-to-t from-[#95b3f8] to-[white] text-[14px] px-[20px] rounded-sm text-[#332f6f] font-bold ${method === 'COD'?'border-[5px] border-blue-900 rounded-sm':''} `}>{loading ? <Loading/> :"CASH ON DELIVERY"}</button>
             </div>
           </div>
         </div>
