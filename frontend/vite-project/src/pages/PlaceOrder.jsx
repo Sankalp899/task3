@@ -126,7 +126,7 @@ function PlaceOrder() {
 
           </div>
           <div>
-            <button type='submit' className='text-[18px] active:bg-slate-500 cursor-pointer bg-[#3bcee848] py-[10px] px-[50px] rounded-2xl text-white flex items-center justify-center gap-[20px] absolute lg:right-[15%] bottom-[10%] right-[35%] border-[1px] border-[#80808049] ml-[30px] mt-[20px]'>PLACE ORDER</button>
+            <button type='submit' className='text-[18px] active:bg-slate-500 cursor-pointer bg-[#3bcee848] py-[10px] px-[50px] rounded-2xl text-white flex items-center justify-center gap-[20px] absolute lg:right-[15%] bottom-[8%] right-[35%] border-[1px] border-[#80808049] ml-[30px] mt-[20px]'>PLACE ORDER</button>
           </div>
         </form>
       </div>
